@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+		<a href="#" class="logo-holder">
+			<div class="logo">V</div>
+			<div class="logo-text">Portfolio</div>
+		</a>
+		<nav>
+			<ul id="menu">
+				<li>
+					<a href="#">Home</a>
+				</li>
+				<li>
+					<a href="#skills">Skills</a>
+				</li>
+				<li>
+					<a href="#projects">Projects</a>
+				</li>
+				<li>
+					<a href="#contact">Contact</a>
+				</li>
+			</ul>
+            <a href="#" class="mobile-menu" onclick="mobileMenu()">
+                <svg class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+                    <path stroke="currentColor" stroke-linecap="round" stroke-width="2" d="M5 7h14M5 12h14M5 17h14"/>
+                </svg>
+            </a>
+		</nav>
+	</header>
+    <main>
+        <section class="container">
+            <div class="left-container">
+                <div>
+                    <h1><small>Hi! I Am</small>
+                        Varun B Karmikanda</h1>
+                        <p>I am a Computer Science Engineering student at SJEC Mangalore with an interest in web development and problem-solving. Currently, I am working on building web applications and strengthening my understanding of data structures and algorithms.</p>
+                        <div class="resume">
+                            <a href="./pdf/resume.pdf" class="button" target="_blank">View Resume</a>
+                        </div>
+                </div>
+            </div>
+            <div class="right-container">
+                <img src="./images/bot.png" alt="Image" width="100%">
+            </div>
+        </section>
+        <section id="skills" class="skill-section">
+            <h2>Skills</h2>
+            <div class="cells">
+                <div class="cell">
+                    <img src="./images/html.svg" alt="HTML logo" width="90px">
+                    <span>HTML</span>
+                </div>
+                <div class="cell">
+                    <img src="./images/css.svg" alt="CSS logo" width="90px">
+                    <span>CSS</span>
+                </div>
+                <div class="cell">
+                    <img src="./images/javascript.svg" alt="JavaScript logo" width="90px">
+                    <span>JavaScript</span>
+                </div>
+                <div class="cell">
+                    <img src="./images/c.svg" alt="C logo" width="90px">
+                    <span>C</span>
+                </div>
+                <div class="cell">
+                    <img src="./images/java.svg" alt="Java logo" width="90px">
+                    <span>Java</span>
+                </div>
+                <div class="cell">
+                    <img src="./images/python.svg" alt="Python logo" width="90px">
+                    <span>Python</span>
+                </div>
+                <div class="cell">
+                    <img src="./images/mysql.svg" alt="MySql logo" width="90px">
+                    <span>MySQL</span>
+                </div>
+                <div class="cell">
+                    <img src="./images/react.svg" alt="React logo" width="100px">
+                    <span>React</span>
+                </div>
+            </div>
+        </section>
+        <section id="projects" class="project-section">
+            <h2>Projects</h2>
+            <div class="projects">
+                <div class="project">
+                    <h3>Maritime Report Processing and Visualization</h3>
+                    <div class="excess">
+                        <div class="columns">
+                            <div class="column"><span>Python</span></div>
+                            <div class="column"><span>Tesseract OCR </span></div>
+                            <div class="column"><span>OpenCV</span></div>
+                            <div class="column"><span>re (Python Regex module)</span></div>
+                            <div class="column"><span>Flask</span></div>
+                            <div class="column"><span>Leaflet.js</span></div>
+                            <div class="column"><span>HTML/CSS</span></div>
+                        </div>
+                        <div class="project-info">
+                            <p>
+                                Maritime Report Processing and Visualization is a project that focuses on processing maritime data 
+                                and providing intuitive visualizations. The system integrates interactive maps to help users explore 
+                                maritime activities and derive data-driven insights for effective decision-making.
+                            </p>
+                        </div>
+                    </div>
+                </div>                
+                <div class="project">
+                    <h3>EduManage: Interactive Department & Student Database Solution</h3>
+                    <div class="excess">
+                        <div class="columns">
+                            <div class="column"><span>HTML</span></div>
+                            <div class="column"><span>CSS</span></div>
+                            <div class="column"><span>JavaScript</span></div>
+                            <div class="column"><span>Node.js</span></div>
+                            <div class="column"><span>MySQL</span></div>
+                        </div>
+                        <div class="project-info">
+                            <p>
+                                EduManage is a web-based application designed to streamline the management of department and student data.
+                                This project provides an intuitive interface for performing essential CRUD (Create, Read, Update, Delete) 
+                                operations on department and student records. It simplifies administrative tasks, offering a reliable and 
+                                efficient way to maintain academic data.
+                            </p>
+                        </div>
+                    </div>
+                </div> 
+            </div>
+        </section>
+        <div id="contact" class="contact-details">
+            <h2>Contact</h2>
+            <div class="contacts">
+                <div>
+                    <div class="contact">
+                        <img src="./images/linkedin.svg" alt="LinkedIn" width="50px">
+                        <span class="text">LinkedIn</span>
+                        <a href="https://in.linkedin.com/in/varun-b-karmikanda-9348382a2">varunbkarmikanda</a>
+                    </div>
+                    <div class="contact">
+                        <img src="./images/github.svg" alt="GitHub" width="50px">
+                        <span class="text">GitHub</span>
+                        <a href="https://github.com/varun-karmikanda">varun-karmikanda</a>
+                    </div>
+                </div> 
+                <div>  
+                    <div class="contact">
+                        <img src="./images/email.svg" alt="Email" width="50px">
+                        <span class="text">Email</span>
+                        <span>varunbkarmikanda@gmail.com</span>
+                    </div>
+                    <div class="contact">
+                        <img src="./images/phone.svg" alt="Phone" width="50px">
+                        <span class="text">Phone</span>
+                        <span>+91 7795135921</span>
+                    </div>
+                </div> 
+            </div>
+        </section>
+    </main>
+    <script src="./script.js"></script>
+</body>
+</html>
